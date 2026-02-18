@@ -2,9 +2,7 @@
 layout: default
 ---
   
-
-
-
+{{ content }}
 
 <h2> Ryan vs Ryan: Liquid Table Demo </h2>
 
@@ -20,70 +18,48 @@ layout: default
 <tbody>
 
 <tr>
-  
-  
   <td>
-  
-    
     <h4>  Strengths  </h4>
     <ul>
-      
       {% for item in page.reynolds.strengths %}
          <li>{{ item }}</li>
       {% endfor %}
-      
     </ul>
     
     <br>
 
     <h4>  Weaknessess  </h4>
     <ul>
-      
       {% for item in page.reynolds.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
-      
     </ul>  
-    
-    
   </td>
-  
-
 
   <td>
-  
     <h4>  Strengths  </h4>
     <ul>
-      
       {% for item in page.gosling.strengths %}
         <li>{{ item }}</li>
       {% endfor %}
-      
     </ul>
     
     <br>
     
     <h4>  Weaknessess  </h4>
     <ul>
-      
       {% for item in page.gosling.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
-      
     </ul>
-
   </td>
 </tr> 
 
 </table>
 
-
 <br>
-
 <hr>
-
 <br>
-
 
 <blockquote>
 <pre>
@@ -159,8 +135,6 @@ layout: default
           &lbrace;&lbrace; content }}
 
           #  liquid table starts here
-
-
 
 
 
@@ -283,10 +257,6 @@ layout: default
 </pre>
 </blockquote>
 
-
-{{ content }}
-
-
 <style>
   pre{
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
@@ -299,10 +269,10 @@ layout: default
 
 ui {
   padding-inline-start: 10px;
-  }
-  
+}
+
 table {
   margin-left: 20px;
-  }
-  
+}
 </style>
+
