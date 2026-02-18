@@ -49,7 +49,7 @@ Edit the `_config.yml` file to change any settings you want. To edit the file, f
 ### 4. Congratulations! You have a website!
 
 
-</style>
+<style>
 
 .gs-section-01 h3 {color: red;}
 
