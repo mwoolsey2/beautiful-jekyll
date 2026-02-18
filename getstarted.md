@@ -48,6 +48,9 @@ Edit the `_config.yml` file to change any settings you want. To edit the file, f
 
 ### 4. Congratulations! You have a website!
 
+
+</style>
+
 .gs-section-01 h3 {color: red;}
 
 .gs-section-01 {font-size: 22px;}
